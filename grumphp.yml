@@ -21,14 +21,13 @@ grumphp:
     tasks:
       composer:
           metadata: {priority: 700}
-      securitychecker_local:
-          metadata: {priority: 600}
       git_blacklist:
           keywords: [die(, var_dump(, exit;]
           metadata: {priority: 500}
       phpcs:
           standard: PSR2
           whitelist_patterns: ['/^app(.*)/', '/^config(.*)/', '/^recources(.*)/', , '/^test(.*)/']
+          ignore_patterns: ["*.blade.php"]
           metadata: {priority: 400}
           exclude: ['Generic.Files.LineLength']
       phpstan:
