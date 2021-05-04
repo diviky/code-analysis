@@ -1,0 +1,44 @@
+grumphp:
+    ascii:
+        failed: null
+        succeeded: null
+    process_timeout: 600
+    parallel:
+        enabled: false
+        max_workers: 32
+    fixer:
+        enabled: true
+        fix_by_default: false
+    testsuites:
+      style:
+          tasks:
+            - composer
+            - phpcs
+            - phpmd
+      static:
+          tasks:
+            - phpstan
+    tasks:
+      composer:
+          metadata: {priority: 700}
+      securitychecker_local:
+          metadata: {priority: 600}
+      git_blacklist:
+          keywords: [die(, var_dump(, exit;]
+          metadata: {priority: 500}
+      phpcs:
+          standard: PSR2
+          whitelist_patterns: ['/^app(.*)/', '/^config(.*)/', '/^recources(.*)/', , '/^test(.*)/']
+          metadata: {priority: 400}
+          exclude: ['Generic.Files.LineLength']
+      phpstan:
+          ignore_patterns: ['/^tests(.*)/', '/^database(.*)/', '/^config(.*)/', '/^routes(.*)/', '/deploy.php/']
+          configuration: vendor/diviky/code-analysis/phpstan.neon
+          level: 5
+          metadata: {priority: 300}
+      phpmd:
+          whitelist_patterns: ['/^app(.*)/', '/^config(.*)/', '/^recources(.*)/']
+          ruleset: ['vendor/diviky/code-analysis/ruleset.xml']
+          metadata: {priority: 200}
+      phpunit:
+          metadata: {priority: 100}

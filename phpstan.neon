@@ -1,0 +1,12 @@
+parameters:
+    level: max
+    paths:
+        - app
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        - '#Method Illuminate\\Contracts\\Foundation\\Application::basePath\(\) invoked with 1 parameter, 0 required.#'
+        - '#Call to an undefined method Mockery\\ExpectationInterface#'
+        - '#Mockery\\MockInterface#'
+        - '#Parameter \#4 \$phpDocParameterTypes of method PHPStan\\Reflection\\Php\\PhpMethodReflectionFactory::create#'
+        - '#Access to an undefined property [a-zA-Z0-9\\_]+::\$db#'
+        - '#Access to an undefined property [a-zA-Z0-9\\_]+::\$request#'
