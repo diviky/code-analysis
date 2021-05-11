@@ -26,7 +26,7 @@ grumphp:
           metadata: {priority: 500}
       phpcs:
           standard: PSR2
-          whitelist_patterns: ['/^app(.*)/', '/^config(.*)/', '/^recources(.*)/', , '/^test(.*)/']
+          whitelist_patterns: ['/^src(.*)/','/^app(.*)/', '/^config(.*)/', '/^recources(.*)/', , '/^test(.*)/']
           ignore_patterns: ["*.blade.php"]
           metadata: {priority: 400}
           exclude: ['Generic.Files.LineLength']
@@ -41,3 +41,22 @@ grumphp:
           metadata: {priority: 200}
       phpunit:
           metadata: {priority: 100}
+      phpcsfixer:
+        allow_risky: ~
+        cache_file: ~
+        config: ~
+        rules: []
+        using_cache: ~
+        config_contains_finder: true
+        verbose: true
+        diff: false
+        triggered_by: ['php']
+      psalm:
+          config: psalm.xml
+          ignore_patterns: ["*.blade.php"]
+          no_cache: false
+          report: ~
+          output_format: null
+          threads: 1
+          triggered_by: ['php']
+          show_info: true

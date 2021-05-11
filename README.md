@@ -33,11 +33,15 @@ composer require --dev diviky/code-analysis
 If you want to run the coding style or static analysis checks only, you can run the following commands:
 
 ```
+php artisan self-diagnosis
+
 vendor/bin/grumphp run --testsuite=style
 vendor/bin/grumphp run --testsuite=static
-
-php artisan self-diagnosis
+vendor/bin/php-cs-fixer fix --allow-risky=yes
+vendor/bin/psalm
 vendor/bin/phpstan analyse src
+vendor/bin/testbench package:test --parallel
+vendor/bin/phpunit --coverage-html coverage
 
 ```
 
