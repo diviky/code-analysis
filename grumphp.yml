@@ -31,26 +31,33 @@ grumphp:
           metadata: {priority: 400}
           exclude: ['Generic.Files.LineLength']
       phpstan:
-          ignore_patterns: ['/^tests(.*)/', '/^database(.*)/', '/^config(.*)/', '/^routes(.*)/', '/deploy.php/']
-          configuration: vendor/diviky/code-analysis/phpstan.neon
-          level: 5
-          metadata: {priority: 300}
+        ignore_patterns: ['/^tests(.*)/', '/^database(.*)/', '/^config(.*)/', '/^routes(.*)/']
+        configuration: phpstan.neon
+        level: 5
+        metadata: { priority: 300 }
+      phpcpd:
+          directory: ['src']
+          exclude: ['vendor']
+          fuzzy: false
+          min_lines: 5
+          min_tokens: 70
+          triggered_by: ['php']
       phpmd:
-          whitelist_patterns: ['/^app(.*)/', '/^config(.*)/', '/^recources(.*)/']
+          whitelist_patterns: ['/^src(.*)/', '/^app(.*)/', '/^config(.*)/', '/^recources(.*)/']
           ruleset: ['vendor/diviky/code-analysis/ruleset.xml']
           metadata: {priority: 200}
       phpunit:
           metadata: {priority: 100}
       phpcsfixer:
-        allow_risky: ~
-        cache_file: ~
-        config: ~
+        allow_risky: true
+        config: .php_cs
         rules: []
-        using_cache: ~
+        using_cache: false
         config_contains_finder: true
         verbose: true
         diff: false
         triggered_by: ['php']
+        metadata: { priority: 500 }
       psalm:
           config: psalm.xml
           ignore_patterns: ["*.blade.php"]

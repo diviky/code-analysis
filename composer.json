@@ -8,7 +8,7 @@
             "email": "sankar.suda@gmail.com"
         }
     ],
-    "require": {
+    "require-dev": {
         "phpro/grumphp": "^1.0",
         "phpmd/phpmd": "^2.9",
         "squizlabs/php_codesniffer": "^3.5",
@@ -22,11 +22,14 @@
         "spatie/phpunit-snapshot-assertions": "^4.2",
         "spatie/test-time": "^1.2",
         "vimeo/psalm": "^4.3",
-        "psalm/plugin-laravel": "^1.4"
+        "psalm/plugin-laravel": "^1.4",
+        "sebastian/phpcpd": "^6.0"
     },
     "extra": {
         "grumphp": {
             "config-default-path": "vendor/diviky/code-analysis/grumphp.yml"
         }
-    }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
