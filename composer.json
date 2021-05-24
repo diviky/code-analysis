@@ -23,7 +23,8 @@
         "spatie/test-time": "^1.2",
         "vimeo/psalm": "^4.3",
         "psalm/plugin-laravel": "^1.4",
-        "sebastian/phpcpd": "^6.0"
+        "sebastian/phpcpd": "^6.0",
+        "nunomaduro/collision": "^5.4"
     },
     "extra": {
         "grumphp": {
