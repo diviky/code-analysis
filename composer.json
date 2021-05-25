@@ -24,7 +24,9 @@
         "vimeo/psalm": "^4.3",
         "psalm/plugin-laravel": "^1.4",
         "sebastian/phpcpd": "^6.0",
-        "nunomaduro/collision": "^5.4"
+        "nunomaduro/collision": "^5.4",
+        "jasonmccreary/laravel-test-assertions": "^1.1",
+        "mockery/mockery": "^1.4.2"
     },
     "extra": {
         "grumphp": {
