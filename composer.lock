@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "541d7f0fb1fe2ed3574bdc943e315ffd",
+    "content-hash": "82483dc4a0541d7b80b4f82c95bd2367",
     "packages": [
         {
             "name": "amphp/amp",
@@ -804,16 +804,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.9",
+            "version": "1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5"
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
-                "reference": "78a0e288fdcebf92aa2318a8d3656168da6ac1a5",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/9fdb22c2e97a614657716178093cd1da90a64aa8",
+                "reference": "9fdb22c2e97a614657716178093cd1da90a64aa8",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +860,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.2.9"
+                "source": "https://github.com/composer/ca-bundle/tree/1.2.10"
             },
             "funding": [
                 {
@@ -876,20 +876,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-12T12:10:35+00:00"
+            "time": "2021-06-07T13:58:28+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "2.1.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "e338749d4e6cc97e1136c210ce0212d4a59e3a58"
+                "reference": "fc5c4573aafce3a018eb7f1f8f91cea423970f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/e338749d4e6cc97e1136c210ce0212d4a59e3a58",
-                "reference": "e338749d4e6cc97e1136c210ce0212d4a59e3a58",
+                "url": "https://api.github.com/repos/composer/composer/zipball/fc5c4573aafce3a018eb7f1f8f91cea423970f2e",
+                "reference": "fc5c4573aafce3a018eb7f1f8f91cea423970f2e",
                 "shasum": ""
             },
             "require": {
@@ -958,7 +958,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.1.1"
+                "source": "https://github.com/composer/composer/tree/2.1.3"
             },
             "funding": [
                 {
@@ -974,7 +974,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-04T06:46:46+00:00"
+            "time": "2021-06-09T14:31:20+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -3056,16 +3056,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.45.1",
+            "version": "v8.46.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "dc2f0bb02c3eb4b27669d626bb3e810db8e7749d"
+                "reference": "a18266c612e0e6aba5e0174b3c873d2d217dccfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/dc2f0bb02c3eb4b27669d626bb3e810db8e7749d",
-                "reference": "dc2f0bb02c3eb4b27669d626bb3e810db8e7749d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a18266c612e0e6aba5e0174b3c873d2d217dccfb",
+                "reference": "a18266c612e0e6aba5e0174b3c873d2d217dccfb",
                 "shasum": ""
             },
             "require": {
@@ -3220,7 +3220,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-06-03T16:39:17+00:00"
+            "time": "2021-06-08T13:36:46+00:00"
         },
         {
             "name": "league/commonmark",
@@ -3476,16 +3476,16 @@
         },
         {
             "name": "maglnet/composer-require-checker",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maglnet/ComposerRequireChecker.git",
-                "reference": "cd6c6b91ee3c065e60a35ca1a67becb0ae86dbb7"
+                "reference": "4063254c611acf34f1c15b29b6bcc47d2e7a9a9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maglnet/ComposerRequireChecker/zipball/cd6c6b91ee3c065e60a35ca1a67becb0ae86dbb7",
-                "reference": "cd6c6b91ee3c065e60a35ca1a67becb0ae86dbb7",
+                "url": "https://api.github.com/repos/maglnet/ComposerRequireChecker/zipball/4063254c611acf34f1c15b29b6bcc47d2e7a9a9e",
+                "reference": "4063254c611acf34f1c15b29b6bcc47d2e7a9a9e",
                 "shasum": ""
             },
             "require": {
@@ -3494,17 +3494,17 @@
                 "ext-phar": "*",
                 "nikic/php-parser": "^4.10.2",
                 "php": "^7.4 || ^8.0",
-                "symfony/console": "^5.1.8",
+                "symfony/console": "^5.2.6",
                 "webmozart/assert": "^1.9.1",
-                "webmozart/glob": "^4.2.0"
+                "webmozart/glob": "^4.3.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^8.2.0",
+                "doctrine/coding-standard": "^9.0.0",
                 "ext-zend-opcache": "*",
                 "mikey179/vfsstream": "^1.6.8",
-                "phpstan/phpstan": "^0.12.64",
-                "phpunit/phpunit": "^9.5.0",
-                "vimeo/psalm": "^4.3.2"
+                "phpstan/phpstan": "^0.12.85",
+                "phpunit/phpunit": "^9.5.4",
+                "vimeo/psalm": "^4.7.0"
             },
             "bin": [
                 "bin/composer-require-checker"
@@ -3549,9 +3549,9 @@
             ],
             "support": {
                 "issues": "https://github.com/maglnet/ComposerRequireChecker/issues",
-                "source": "https://github.com/maglnet/ComposerRequireChecker/tree/3.2.0"
+                "source": "https://github.com/maglnet/ComposerRequireChecker/tree/3.3.0"
             },
-            "time": "2021-03-11T11:57:20+00:00"
+            "time": "2021-06-09T11:44:18+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -3781,16 +3781,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.48.1",
+            "version": "2.49.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16"
+                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8d1f50f1436fb4b05e7127360483dd9c6e73da16",
-                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/93d9db91c0235c486875d22f1e08b50bdf3e6eee",
+                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee",
                 "shasum": ""
             },
             "require": {
@@ -3870,7 +3870,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T22:08:38+00:00"
+            "time": "2021-06-02T07:31:40+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -4505,6 +4505,71 @@
                 }
             ],
             "time": "2021-05-25T03:25:38+00:00"
+        },
+        {
+            "name": "palpalani/grumphp-rector-task",
+            "version": "0.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/palpalani/grumphp-rector-task.git",
+                "reference": "25855a05f072ce5445c6e3db4110d5666b3f19d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/palpalani/grumphp-rector-task/zipball/25855a05f072ce5445c6e3db4110d5666b3f19d3",
+                "reference": "25855a05f072ce5445c6e3db4110d5666b3f19d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "phpro/grumphp": "^1.3",
+                "rector/rector": "^0.11"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.19|^3.0",
+                "orchestra/testbench": "^6.15",
+                "phpunit/phpunit": "^8.4|^9.3",
+                "vimeo/psalm": "^4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "palPalani\\GrumPhpRectorTask\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "palPalani",
+                    "email": "palani.p@gmail.com",
+                    "homepage": "https://github.com/palpalani",
+                    "role": "Developer"
+                }
+            ],
+            "description": "RectorPhp task runner from GrumPHP",
+            "homepage": "https://github.com/palpalani/grumphp-rector-task",
+            "keywords": [
+                "automated-upgrades",
+                "grumphp",
+                "grumphp-rector-task",
+                "grumphp-task",
+                "instant-upgrades",
+                "laravel",
+                "laravel shift",
+                "laravel-framework",
+                "php-library",
+                "rectorphp",
+                "refactoring",
+                "upgrade"
+            ],
+            "support": {
+                "issues": "https://github.com/palpalani/grumphp-rector-task/issues",
+                "source": "https://github.com/palpalani/grumphp-rector-task/tree/0.8.2"
+            },
+            "time": "2021-05-24T06:12:50+00:00"
         },
         {
             "name": "pdepend/pdepend",
@@ -5761,16 +5826,16 @@
         },
         {
             "name": "psalm/plugin-laravel",
-            "version": "v1.4.5",
+            "version": "v1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-laravel.git",
-                "reference": "2b7fe4581a35cefcc656ba61664903a3950a675a"
+                "reference": "11f6fd4bc5703ff69a688429150a9569ab100505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-laravel/zipball/2b7fe4581a35cefcc656ba61664903a3950a675a",
-                "reference": "2b7fe4581a35cefcc656ba61664903a3950a675a",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-laravel/zipball/11f6fd4bc5703ff69a688429150a9569ab100505",
+                "reference": "11f6fd4bc5703ff69a688429150a9569ab100505",
                 "shasum": ""
             },
             "require": {
@@ -5820,9 +5885,9 @@
             "description": "A Laravel plugin for Psalm",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-laravel/issues",
-                "source": "https://github.com/psalm/psalm-plugin-laravel/tree/v1.4.5"
+                "source": "https://github.com/psalm/psalm-plugin-laravel/tree/v1.4.7"
             },
-            "time": "2021-05-01T21:05:01+00:00"
+            "time": "2021-06-10T05:24:57+00:00"
         },
         {
             "name": "psr/cache",
@@ -6387,6 +6452,66 @@
                 "source": "https://github.com/reactphp/promise/tree/v2.8.0"
             },
             "time": "2020-05-12T15:16:56+00:00"
+        },
+        {
+            "name": "rector/rector",
+            "version": "0.11.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rectorphp/rector.git",
+                "reference": "5c030ad7cefa59075e0fe14604cd4982ceaa2bd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/5c030ad7cefa59075e0fe14604cd4982ceaa2bd0",
+                "reference": "5c030ad7cefa59075e0fe14604cd4982ceaa2bd0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0",
+                "phpstan/phpstan": ">=0.12.86 <=0.12.88"
+            },
+            "conflict": {
+                "phpstan/phpdoc-parser": "<=0.5.3",
+                "phpstan/phpstan": "<=0.12.82",
+                "rector/rector-cakephp": "*",
+                "rector/rector-doctrine": "*",
+                "rector/rector-nette": "*",
+                "rector/rector-nette-to-symfony": "*",
+                "rector/rector-phpunit": "*",
+                "rector/rector-prefixed": "*",
+                "rector/rector-symfony": "*"
+            },
+            "bin": [
+                "bin/rector"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.10-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Prefixed and PHP 7.1 downgraded version of rector/rector",
+            "support": {
+                "issues": "https://github.com/rectorphp/rector/issues",
+                "source": "https://github.com/rectorphp/rector/tree/0.11.16"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-06-08T08:41:04+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -7785,16 +7910,16 @@
         },
         {
             "name": "spatie/ray",
-            "version": "1.24.0",
+            "version": "1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ray.git",
-                "reference": "9502da4aefbeddb9067569e6fc3e8176f3226ee1"
+                "reference": "168c4b47a54586da1ea2c4695523c429ee527f73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ray/zipball/9502da4aefbeddb9067569e6fc3e8176f3226ee1",
-                "reference": "9502da4aefbeddb9067569e6fc3e8176f3226ee1",
+                "url": "https://api.github.com/repos/spatie/ray/zipball/168c4b47a54586da1ea2c4695523c429ee527f73",
+                "reference": "168c4b47a54586da1ea2c4695523c429ee527f73",
                 "shasum": ""
             },
             "require": {
@@ -7844,7 +7969,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/ray/issues",
-                "source": "https://github.com/spatie/ray/tree/1.24.0"
+                "source": "https://github.com/spatie/ray/tree/1.25.0"
             },
             "funding": [
                 {
@@ -7856,7 +7981,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-06-03T22:13:24+00:00"
+            "time": "2021-06-07T07:03:00+00:00"
         },
         {
             "name": "spatie/test-time",

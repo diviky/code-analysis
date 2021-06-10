@@ -18,6 +18,8 @@ grumphp:
     static:
       tasks:
         - psalm
+  extensions:
+    - palPalani\GrumPhpRectorTask\ExtensionLoader
   tasks:
     composer:
     # composer_require_checker:
@@ -62,13 +64,13 @@ grumphp:
     #   configuration: phpstan.neon
     #   level: 5
     #   metadata: { priority: 300 }
-    phpcpd:
-      directory: ["src"]
-      exclude: ["vendor"]
-      fuzzy: false
-      min_lines: 5
-      min_tokens: 70
-      triggered_by: ["php"]
+    # phpcpd:
+    #   directory: ["src"]
+    #   exclude: ["vendor"]
+    #   fuzzy: false
+    #   min_lines: 5
+    #   min_tokens: 70
+    #   triggered_by: ["php"]
     phpmd:
       whitelist_patterns:
         ["/^src(.*)/", "/^app(.*)/", "/^config(.*)/", "/^recources(.*)/"]
@@ -93,6 +95,14 @@ grumphp:
       triggered_by: ["php"]
       show_info: false
       metadata: { priority: 400 }
+    rector:
+      whitelist_patterns: []
+      config: "rector.php"
+      triggered_by: ["php"]
+      clear-cache: false
+      ignore_patterns: []
+      no-progress-bar: false
+      files_on_pre_commit: false
     # composer_script:
     #   script: test
     #   triggered_by: [php]
