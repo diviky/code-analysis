@@ -30,12 +30,14 @@
         "palpalani/grumphp-rector-task": "^0.8.2",
         "beyondcode/laravel-query-detector": "^1.5",
         "jrmadsen67/laravel-route-coverage-test": "^1.1",
-        "kitloong/laravel-migrations-generator": "^4.4",
+        "kitloong/laravel-migrations-generator": "^6.3",
         "thedoctor0/laravel-factory-generator": "^1.2",
         "mnabialek/laravel-sql-logger": "^2.2",
         "orangehill/iseed": "^3.0",
         "psalm/plugin-laravel": "^1.6",
-        "staudenmeir/laravel-migration-views": "^1.5|^1.6"
+        "staudenmeir/laravel-migration-views": "^1.5|^1.6",
+        "laravel/pint": "^1.1",
+        "nunomaduro/phpinsights": "^2.4"
     },
     "autoload": {},
     "extra": {
