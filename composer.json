@@ -34,7 +34,7 @@
         "thedoctor0/laravel-factory-generator": "^1.2",
         "mnabialek/laravel-sql-logger": "^2.2",
         "orangehill/iseed": "^3.0",
-        "psalm/plugin-laravel": "^1.6",
+        "psalm/plugin-laravel": "^2.0",
         "staudenmeir/laravel-migration-views": "^1.5|^1.6",
         "laravel/pint": "^1.1",
         "nunomaduro/phpinsights": "^2.4"
@@ -51,7 +51,8 @@
     "config": {
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
-            "phpro/grumphp": true
+            "phpro/grumphp": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     }
 }
