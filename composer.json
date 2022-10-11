@@ -36,7 +36,8 @@
         "psalm/plugin-laravel": "^2.0",
         "staudenmeir/laravel-migration-views": "^1.5|^1.6",
         "laravel/pint": "^1.1",
-        "nunomaduro/phpinsights": "^2.4"
+        "nunomaduro/phpinsights": "^2.4",
+        "barryvdh/laravel-ide-helper": "^2.12"
     },
     "require-dev": {
         "laravel/framework": "^9.0"
