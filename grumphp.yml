@@ -1,10 +1,12 @@
 grumphp:
+  extensions:
+    - YieldStudio\GrumPHPLaravelPint\ExtensionLoader
   ascii:
     failed: null
     succeeded: null
   process_timeout: 600
   parallel:
-    enabled: true
+    enabled: false
     max_workers: 32
   fixer:
     enabled: true
@@ -13,52 +15,33 @@ grumphp:
     style:
       tasks:
         - composer
-        - phpcsfixer
+        - laravel_pint
     static:
       tasks:
         - psalm
-  extensions:
-    - palPalani\GrumPhpRectorTask\ExtensionLoader
   tasks:
     composer:
-    # composer_require_checker:
-    #   composer_file: "composer.json"
-    #   triggered_by: ["composer.json", "composer.lock"]
+      metadata: { priority: 700 }
     git_blacklist:
-      keywords: [die(, var_dump(, exit;, " dd("]
+      keywords: [die(, var_dump(, exit;]
       metadata: { priority: 500 }
-    git_branch_name:
-      whitelist:
-        - "/JIRA-\\w+/"
-        - "/jira-\\w+/"
-        - "/feature-\\w+/"
-        - "/hotfix-\\w+/"
-        - "/bugfix-\\w+/"
-        - "/issue-\\w+/"
-        - "/task-\\w+/"
-        - "/release-\\w+/"
-        - "development"
-        - "master"
-        - "deployment"
-      allow_detached_head: true
-    # git_commit_message:
-    #   matchers:
-    #     Must contain JIRA issue number: /JIRA-\w+/
-    phplint:
-      exclude: ["vendor"]
-      jobs: 10
-      short_open_tag: false
-      ignore_patterns: []
-      triggered_by: ["php", "phtml", "php3", "php4", "php5"]
+    # phplint:
+    #   exclude: ['vendor']
+    #   jobs: 10
+    #   short_open_tag: false
+    #   ignore_patterns: []
+    #   triggered_by: ['php']
     phpcs:
       standard:
-        - PSR2
-      whitelist_patterns:
-        ["/^src(.*)/", "/^app(.*)/", "/^config(.*)/", "/^test(.*)/"]
-      ignore_patterns: ["*.blade.php"]
+        - PSR12
+      whitelist_patterns: ['/^src(.*)/', '/^app(.*)/', '/^config(.*)/', '/^test(.*)/']
+      ignore_patterns: ['*.blade.php']
       metadata: { priority: 400 }
-      exclude: ["Generic.Files.LineLength"]
+      exclude: ['Generic.Files.LineLength', 'PSR2.ControlStructures.SwitchDeclaration']
+    phpunit:
+      metadata: { priority: 100 }
     laravel_pint:
+      metadata: { priority: 500 }
       config: pint.json
       preset: laravel
       auto_fix: false
@@ -66,14 +49,10 @@ grumphp:
         - php
     psalm:
       config: psalm.xml
-      ignore_patterns: ["*.blade.php"]
+      ignore_patterns: ['*.blade.php']
       no_cache: true
       output_format: console
-      threads: 5
-      triggered_by: ["php"]
+      threads: 1
+      triggered_by: ['php']
       show_info: false
       metadata: { priority: 400 }
-    # composer_script:
-    #   script: test
-    #   triggered_by: [php]
-    # phpunit:

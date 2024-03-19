@@ -19,7 +19,6 @@
         "spatie/phpunit-snapshot-assertions": "^4.2",
         "spatie/test-time": "^1.2",
         "vimeo/psalm": "^5.13",
-        "sebastian/phpcpd": "^6.0",
         "nunomaduro/collision": "^5.11|^6.1",
         "jasonmccreary/laravel-test-assertions": "^2.3",
         "mockery/mockery": "^1.4.2",
