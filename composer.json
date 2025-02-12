@@ -36,7 +36,7 @@
         "yieldstudio/grumphp-laravel-pint": "^1.0"
     },
     "require-dev": {
-        "laravel/framework": "^10.20|^11.28"
+        "laravel/framework": "^11.28"
     },
     "autoload": {},
     "extra": {
