@@ -33,7 +33,8 @@
         "spatie/laravel-ignition": "^2.0",
         "monolog/monolog": "^3.0",
         "symfony/console": "^6.0|^7.0",
-        "yieldstudio/grumphp-laravel-pint": "^1.0"
+        "yieldstudio/grumphp-laravel-pint": "^1.0",
+        "psalm/plugin-laravel": "^2.11"
     },
     "require-dev": {
         "laravel/framework": "^11.28"
