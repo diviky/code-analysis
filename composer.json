@@ -13,7 +13,7 @@
         "phpmd/phpmd": "^2.9",
         "squizlabs/php_codesniffer": "^3.5",
         "fakerphp/faker": "^1.9",
-        "orchestra/testbench": "^8.27|^9.1",
+        "orchestra/testbench": "^9.1|^10.1",
         "phpunit/phpunit": "^10.5|^11.2",
         "spatie/phpunit-snapshot-assertions": "^5.1",
         "spatie/test-time": "^1.2",
@@ -24,20 +24,19 @@
         "jrmadsen67/laravel-route-coverage-test": "^1.1",
         "kitloong/laravel-migrations-generator": "^7.0",
         "thedoctor0/laravel-factory-generator": "^1.2",
-        "mnabialek/laravel-sql-logger": "^2.2",
         "orangehill/iseed": "^3.0",
         "staudenmeir/laravel-migration-views": "^1.6",
         "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.4",
-        "barryvdh/laravel-ide-helper": "^3.0",
+        "barryvdh/laravel-ide-helper": "^3.5",
         "spatie/laravel-ignition": "^2.0",
         "monolog/monolog": "^3.0",
         "symfony/console": "^6.0|^7.0",
         "yieldstudio/grumphp-laravel-pint": "^1.0",
-        "psalm/plugin-laravel": "^2.11"
+        "psalm/plugin-laravel": "^3.0"
     },
     "require-dev": {
-        "laravel/framework": "^11.28"
+        "laravel/framework": "^11.22|^12.2"
     },
     "autoload": {},
     "extra": {
