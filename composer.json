@@ -14,8 +14,6 @@
         "squizlabs/php_codesniffer": "^3.5",
         "fakerphp/faker": "^1.9",
         "orchestra/testbench": "^9.1|^10.1",
-
-
         "spatie/test-time": "^1.2",
         "nunomaduro/collision": "^7.10|^8.1",
         "jasonmccreary/laravel-test-assertions": "^2.3",
@@ -34,13 +32,15 @@
         "symfony/console": "^6.0|^7.0",
         "yieldstudio/grumphp-laravel-pint": "^1.0",
         "psalm/plugin-laravel": "^3.0",
-        "pestphp/pest-plugin-livewire": "4.x-dev",
-        "pestphp/pest-plugin-faker": "4.x-dev",
-        "pestphp/pest": "4.x-dev",
-        "overtrue/laravel-query-logger": "^3.4"
+        "pestphp/pest-plugin-livewire": "^4.0",
+        "pestphp/pest-plugin-faker": "^4.0",
+        "pestphp/pest": "^4.0",
+        "overtrue/laravel-query-logger": "^3.4",
+        "pestphp/pest-plugin-browser": "^4.0",
+        "pestphp/pest-plugin-profanity": "^4.0"
     },
     "require-dev": {
-        "laravel/framework": "^11.22|^12.2"
+        "laravel/framework": "^12.2"
     },
     "autoload": {},
     "extra": {
