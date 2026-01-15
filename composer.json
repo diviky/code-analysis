@@ -32,7 +32,7 @@
         "symfony/console": "^6.0|^7.0",
         "yieldstudio/grumphp-laravel-pint": "^1.0",
         "psalm/plugin-laravel": "^3.0",
-        "pestphp/pest-plugin-livewire": "^4.0",
+        "pestphp/pest-plugin-livewire": "^4.0|dev-main",
         "pestphp/pest-plugin-faker": "^4.0",
         "pestphp/pest": "^4.0",
         "overtrue/laravel-query-logger": "^3.4",
