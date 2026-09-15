@@ -27,7 +27,6 @@
         "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.4",
         "barryvdh/laravel-ide-helper": "^3.5",
-        "spatie/laravel-ignition": "^2.0",
         "monolog/monolog": "^3.0",
         "symfony/console": "^7.4|^8.0",
         "yieldstudio/grumphp-laravel-pint": "^1.0",
